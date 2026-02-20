@@ -28,10 +28,20 @@
   color: #61dafb;
 }
 
+.App-text {
+  margin-top: 5rem;
+}
+
+.App-text::selection {
+  background-color: red;
+  color: black;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
